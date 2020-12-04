@@ -185,7 +185,7 @@ main(int argc, char **argv)
 			rv = check_pkg_integrity(&xh, NULL, argv[i]);
 			if (rv != 0)
 				fprintf(stderr, "Failed to check "
-				    "`%s': %s\n", argv[i], strerror(rv));
+				    "`%s'\n", argv[i]);
 		}
 	}
 
